@@ -15,8 +15,8 @@ A simple and interactive web application to get **live cricket scores** and matc
 
 ## Screenshots
 
-![Screenshot1](screenshots\Screenshot 2025-08-14 200756.png)  
-![Screenshot2](screenshots\Screenshot 2025-08-14 200830.png)  
+![Screenshot1](screenshots/Screenshot 2025-08-14 200756.png)  
+![Screenshot2](screenshots/Screenshot 2025-08-14 200830.png)  
 
 
 *(Add your own screenshots in a `screenshots` folder for better visualization)*
