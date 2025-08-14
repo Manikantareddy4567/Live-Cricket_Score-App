@@ -1,0 +1,77 @@
+/* ===== Background with animation ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f5f5f5;
+    background: linear-gradient(270deg, #0f2027, #203a43, #2c5364, #1f4037, #99f2c8);
+    background-size: 1000% 1000%;
+    animation: gradientMove 20s ease infinite;
+    min-height: 100vh;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ===== Top Bar ===== */
+.top-bar {
+    background: linear-gradient(90deg, #ff4e50, #f9d423);
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.top-bar img {
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform 0.3s ease;
+}
+
+.top-bar img:hover {
+    transform: scale(1.1) rotate(8deg);
+}
+
+/* ===== Section Titles ===== */
+h2 {
+    margin-top: 40px;
+    color: #ffe082;
+    border-bottom: 2px solid #ffe082;
+    padding-bottom: 6px;
+    text-shadow: 0 0 8px rgba(255, 224, 130, 0.8);
+}
+
+/* ===== Cards ===== */
+.custom-card, .custom-upcoming-card {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(6px);
+}
+
+.custom-card:hover, .custom-upcoming-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.15);
+}
+
+/* ===== Match Text ===== */
+.recent-match-text {
+    color: #fff176;
+    font-size: 16px;
+}
+
+/* ===== Teams Text ===== */
+.match-teams {
+    font-weight: bold;
+    color: #80deea;
+}
+
+/* ===== List Items ===== */
